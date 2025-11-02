@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="style/main.css" />
+    <title>maybe in another life</title>
+</head>
+<body>
+    <div class="container">
+        <div class="container-content-1">
+            <div class="judul-content-1">
+                <h1>Maybe in Another Life</h1>
+            </div>
+            <div class="content-1">
+                <!-- Card 1 (Rahasia) -->
+                <div class="card secret">
+                    <p>Peri Kecil....</p>
+                </div>
+
+                <!-- Card biasa -->
+                <div class="card" data-info="Di puncak Gunung Gede, angin dingin berbisik melalui pepohonan yang jarang. Seorang pemuda dengan jaket lusuh duduk termenung di tepi jurang, menatap langit yang berwarna jingga merah senja. Namanya Eja. Sejak kecil, ia belajar untuk mempertanyakan segala hal tentang hidup, tentang manusia, tentang alam. Setiap langkahnya di gunung selalu diiringi tanya: “Apa arti keberadaan kita di dunia ini?”">
+                    <p>Jejak di Bumi Bintang</p>
+                </div>
+
+                <div class="card" data-info="Sejak kecil gw suka banget liat bintang dan ngebayangin bisa jadi astronot. Rasanya seru aja bisa terbang jauh, lihat bumi dari atas, dan ngerasain hal-hal yang orang biasa nggak bisa.">
+                    <p>astronot</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Password -->
+    <div class="modal" id="passwordModal">
+        <div class="modal-content">
+            <p>Masukkan kata sandi untuk membuka ini: <br> <span style="color: rgb(62, 62, 234);">Penyanyi BINGKAI</span></p>
+            <input type="password" id="passwordInput" placeholder="Password..." />
+            <div class="modal-actions">
+              <button id="submitPassword">Buka</button>
+              <button id="closePassword">Tutup</button>
+            </div>
+            <p id="errorMsg" class="error"></p>
+        </div>
+    </div>
+
+    <!-- Modal Penjelasan -->
+    <div class="modal" id="infoModal">
+        <div class="modal-content">
+            <p id="infoText"></p>
+            <button id="closeInfo">Tutup</button>
+        </div>
+    </div>
+
+    <script src="script/main.js"></script>
+</body>
+</html>
