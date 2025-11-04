@@ -92,7 +92,7 @@ body {
   padding: 30px;
   border-radius: 15px;
   text-align: justify;
-  max-width: 580px;
+  max-width: 600px;
   box-shadow: 0 0 25px rgba(0, 0, 0, 0.6);
   animation: popIn 0.4s ease;
 }
@@ -101,7 +101,7 @@ body {
   color: #c8d0e0;
   font-size: 1.1em;
   margin-bottom: 16px;
-  line-height: 1.1;
+  line-height: 1.2;
 }
 
 .modal-content input {
@@ -161,4 +161,27 @@ button:hover {
   .container { padding: 24px; }
   .judul-content-1 h1 { font-size: 1.5em; }
   .modal-content { width: 90%; padding: 20px; }
+  .modal-content p {
+  color: #c8d0e0;
+  font-size: 1em;
+  margin-bottom: 16px;
+  line-height: 1.1;
 }
+/* .infoText {
+  /* height: 50vh; 
+  
+}
+.modal-content {
+  max-width: 500px;
+  height: 50vh; 
+  overflow: scroll;
+}*/
+.modal-content p {
+  padding: 8px;
+} 
+.scroll {
+  max-height: 60vh;
+  overflow-x: hidden;
+  overflow-y: visible;
+}
+} 
